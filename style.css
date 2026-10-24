@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #555;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.katalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.produk {
+  background: #1d1d1d;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.produk img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.harga {
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.produk a {
+  display: block;
+  text-align: center;
+  background: #25d366;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.filter button {
+  background: #1d1d1d;
+  color: #eee;
+  border: 1px solid #444;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter button.aktif {
+  background: #d4af37;
+  color: #111;
+  border-color: #d4af37;
+}
