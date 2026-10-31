@@ -70,7 +70,7 @@ header p {
 
 .produk:hover {
   transform: translateY(-6px);
-  box-shadow: 0 3px 10px rgba(212, 175, 55, 0.25);
+  box-shadow: 0 0px 40px rgba(212, 175, 55, 0.25);
 }
 
 .produk img {
