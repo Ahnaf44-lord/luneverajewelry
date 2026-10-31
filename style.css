@@ -61,6 +61,7 @@ header p {
 }
 
 .produk {
+  position: relative;
   background: #1d1d1d;
   border-radius: 12px;
   padding: 16px;
@@ -119,4 +120,34 @@ header p {
 .produk a:hover {
   background: #1ebe5b;
   transform: scale(1.2);
+}
+/* ---------- Label Sold ---------- */
+
+.badge {
+  display: none;
+}
+
+.produk.terjual .badge {
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  background: #d4af37;
+  color: #111;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.produk.terjual img {
+  filter: grayscale(70%) brightness(0.7);
+}
+
+.produk.terjual a {
+  background: #444;
+  color: #aaa;
+  pointer-events: none;
 }
