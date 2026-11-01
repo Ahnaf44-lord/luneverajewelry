@@ -228,3 +228,8 @@ header p {
 html {
   scroll-behavior: smooth;
 }
+.link-panduan {
+  color: #d4af37;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
