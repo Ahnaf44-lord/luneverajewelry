@@ -232,3 +232,9 @@ header p {
   font-size: 0.8rem;
   color: #999;
 }
+
+.link-panduan {
+  color: #d4af37;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
